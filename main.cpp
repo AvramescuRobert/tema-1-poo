@@ -211,13 +211,12 @@ int main(){
 
                 case '6':
                 if(polinom1In == true)
-                    if(polinom2In == true){
+                    {
                         double x;
                         cout << "Introdu punctul: ";
                         cin >> x;
                         cout << p1.valoarePunct(x);
                     }
-                    else cout << "Trebuie sa introduci polinomul 2 \n";
                 else cout << "Trebuie sa introduci polinomul 1 \n";
                 break;
 
